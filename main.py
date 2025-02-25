@@ -7,7 +7,7 @@ from pushbullet import Pushbullet
 import signal
 import sys
 
-print("WhatsApp Monitor")
+
 # Initialize push notifications
 PUSHBULLET_API_KEY = "pushbullent api key"  # Add your Pushbullet API key here
 pb = Pushbullet(PUSHBULLET_API_KEY)
